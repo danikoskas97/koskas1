@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+{% include 'partials/head.html'%}
+<body class="back" style="
+background-color: white;
+font-size: 25px;
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+background-position: center center;
+background-image: url('{% static 'images/architect.jpg' %}');
+height: 650px;
+">
+<header>{% include 'partials/navbar.html'%}</header>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="row" style="padding-right: 150px;">
+        <h1 class="display-4 mt-3" align="center" style="color: #459dff; font-family: Arial Black, Gadget, sans-serif">Koskas et Fils<br>REPROGRAPHIE</h1>
+        <h1 style="padding-top: 15px;" >Tirage de plan minute</h1>
+        <h3 style="" align="center">envoyez vos fichier par Email, venez les chercher dans la demi-heure.</h3>
+      </div>
+    </div>
+    <div class="col">
+      <h5 class="mt-5" align="center" style="font-size: 35px;
+      color: #f72904; font-family: 'Comic Sans MS', cursive; font-weight: bold; ">TIRAGE DE PLAN GRAND FORMAT <br>IMPRESION NUMERIQUE <br>SCANERISATION
+    </h5>
+    </div>
+  </div>
+<div class="row">
+  <div class="jumbotron mt-3" style="background-color: #459dff; opacity: 0.9; ">
+    <p class="lead" style="font-size: 45px;
+        font-family: Arial Black, Gadget, sans-serif">Email: 0140051111@wanado.fr</p>
+        <p class="lead" style="font-size: 45px; font-family: Arial Black, Gadget, sans-serif">télephone: 01 40 05 11 11 </p>
+       
+        <p style="font-size: 25px; font-family:Arial Black, Gadget, sans-serif 
+        ">horaires d'ouverture:</p>
+        <p>Du lundi au jeudi  de 8h30 à 17h30
+         le vendredi de 8h30 à 13h30</p>
+          <!-- <ul style="font-size: 35px"> 
+          <li>dimanche: fermer</li>
+          <li>lundi: 8h30-17h30</li>
+          <li>mardi:8h30-17h30</li>
+          <li>mercredi:8h30-17h30</li>
+          <li>jeudi:8h30-17h30</li>
+          <li>vendredi: 8h30-13H</li>
+          <li>samedi: fermer</li>
+       </ul> -->
+<i class="fas fa-motorcycle" style="height: 42px; width: 44px; 
+padding-left: 35%;"></i>
+<i class="fas fa-truck" style="padding-left: 15%;"></i>
+        <h4 style="font-family: sans serif;">coursier disponible pour les entreprises<br> un service gratuit* assure la livraison de vos travaux a PARIS et ses ENVIRONS*.</h4>
+        <br>
+        <h3 style="font-size: 55px;" align="center"> 85 Quai de la Seine 75019 Paris, France </h3>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.3846261724707!2d2.376026815570646!3d48.88900660650471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dd1aeb3472f%3A0x27bc8ebd84e5ad47!2sKoskas+et+Fils+reprographie!5e0!3m2!1sfr!2sfr!4v1551952276558" width="800" height="600" frameborder="0" style="border:0; padding-left:75px;" allowfullscreen>
+        </iframe>
+      </div>
+      </div>
+    </div>
+  
+  {% include 'partials/footer.html'%}
+</body>
+</html>
+
